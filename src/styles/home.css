@@ -270,7 +270,7 @@
   /* home fifith section */
   .home-section-fifth{
     padding: 3rem 4rem;
-    
+     overflow: hidden;
   }
   .home-fifth-container{
     background-color: #f0f0f0;
@@ -347,7 +347,7 @@
     height: 300px;
   }
   .sixth-text-overlay{
-    padding: 2rem 2rem;
+    padding: 2rem;
   }
   .sixth-text-overlay h2{
     font-family: 'Prata', Georgia, "Times New Roman", serif;
@@ -360,7 +360,7 @@
     font-family: 'Prata', Georgia, "Times New Roman", serif;
     font-size: 18px;
     color: #FFFFFF ;
-    padding: 0.40rem 0 ;
+    padding: 1.7rem 0 ;
     line-height: 1.4em;
   }
   .sixth-btn {

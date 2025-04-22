@@ -34,7 +34,7 @@ const Header = () => {
       <div className="header-container">
         {/* left section */}
         <div className="header-left-section">
-         <a href='#home'> <img src="logo-global-habitat.png" alt="Logo" /></a>
+          <img src="logo-global-habitat.png" alt="Logo" />
         </div>
 
         {/* mobile menu icon */}

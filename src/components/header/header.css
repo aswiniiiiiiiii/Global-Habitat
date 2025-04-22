@@ -4,7 +4,7 @@
   justify-content: center;
   position: sticky;
   top: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #fff;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
@@ -58,7 +58,9 @@
   left: 0;
   transition: all 0.3s;
 }
-
+*{
+  border: 1px solid red !important;
+}
 /* Responsive Styles */
 .menu-icon {
   display: none;
@@ -87,11 +89,16 @@
     padding: 1rem 2rem;
     align-items: flex-start;
   }
+  .header-right-section{
+    z-index: 40000;
+  }
   .header-right-section.open {
-    display: flex;
+    display: flex !important;
+    z-index: 40000;
   }
   .menu-icon {
-    display: block;
+    display: block !important;
+
   }
 }
 
