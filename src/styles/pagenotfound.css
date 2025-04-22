@@ -1,0 +1,33 @@
+.pnf-main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pnf-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0 0; 
+   
+}
+.pnf-container h1{
+    font-weight: 700;
+    color: #047bfb ;
+    font-size: 2.4rem;
+
+}
+.pnf-back-to-home
+{
+    background-color: #047bfb;
+    color: white;
+    font-weight: 600;
+    padding: 0.20rem 0.30rem;
+    border-radius: 5px;
+}
+.pnf-back-to-home:hover{
+    background-color: #a9d2fb;
+    text-decoration-line: underline;
+    color: #047bfb;
+}

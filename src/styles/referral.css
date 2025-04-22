@@ -1,0 +1,35 @@
+.referral-logo{
+    width: 150px;
+}
+.referral-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.refrerral-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.referral-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+.referral-text h1{
+    font-family: 'Prata', Georgia, "Times New Roman", serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 2rem 0;
+}
+.referrral-para{
+    width: 60%;
+    text-align: center;
+}
+/* conatct form */
+.referral-conatc-info{
+    padding: 5rem 0;
+}

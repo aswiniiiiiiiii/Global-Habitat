@@ -1,0 +1,25 @@
+.test-heading{
+    
+    font-family: 'Prata', Georgia, "Times New Roman", serif;
+    font-size: 45px;
+    line-height: 1.2em;
+
+}
+.test-para{
+    font-family: 'Prata', Georgia, "Times New Roman", serif;
+    font-size: 30px ;
+    color: #333333 ;
+    line-height: 1.4em;
+}
+@media(max-width:768px){
+    .test-heading{
+
+        font-size: 40px;
+        line-height: 1.2em;
+    
+    }
+    .test-para{
+        font-size: 30px ;
+      
+    }
+}

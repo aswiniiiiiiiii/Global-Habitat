@@ -1,0 +1,45 @@
+.joint-logo{
+    width: 150px;
+}
+.joint-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.joint-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joint-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+.joint-text h1{
+    font-family: 'Prata', Georgia, "Times New Roman", serif;
+    font-size: 57px;
+    text-align: center;
+    padding: 2rem 0;
+}
+.joint-para{
+    width: 60%;
+    text-align: center;
+}
+@media(max-width:768px){
+    .joint-text h1{
+        font-size: 35px;
+       
+    }
+   
+}
+@media(max-width:480px){
+    .joint-text h1{
+        font-size: 30px;
+       
+    }
+   
+}

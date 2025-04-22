@@ -1,0 +1,136 @@
+/* Main container styles */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Card container */
+  .form-card {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image section */
+  .form-image-container {
+    flex: 1;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  
+  .form-side-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .form-side-image:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Form content section */
+  .form-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .form-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #3498db, #9b59b6);
+  }
+  
+  /* Form fields */
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .input-group input {
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    outline: none;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    margin-top: 20px;
+    padding: 14px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .submit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .form-card {
+      flex-direction: column;
+    }
+    
+    .form-image-container {
+      min-height: 200px;
+    }
+    
+    .form-content {
+      padding: 30px;
+    }
+  }
